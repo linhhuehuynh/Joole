@@ -1,0 +1,27 @@
+.rs-slider-handle::before{
+    border: 2px solid rgb(127,127,127);
+    background-color: rgb(127,127,127);
+}
+
+.rs-slider-progress-bar {
+    position: absolute;
+    height: 2px;
+    background-color: rgb(127,127,127);
+}
+
+.input{
+    height: 1rem;
+    width: 2.5rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.slider{
+    display: inline-block;
+    width: 8rem
+}
+
+.range{
+    margin: 0rem 1rem 0.5rem 1rem
+}

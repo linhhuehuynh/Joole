@@ -1,0 +1,43 @@
+.rangelist {
+    width: max-content;
+    display: inline-block;
+    border: 1px solid rgb(217,217,217)
+}
+.p {
+    background-color: rgb(242,242,242);
+    text-indent: 0.75rem;
+    border: 1px solid rgb(217,217,217)
+}
+
+.button{
+    margin: 1rem 1rem;
+    color: white;
+    background-color: rgb(127,127,127);
+    width: 4rem;
+    margin-right: 0.5rem;
+    margin-left: 0rem 
+}
+
+.sp{
+    margin: 1rem 1rem
+}
+
+.searchRange{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+label{
+    margin-left: 1rem
+}
+
+.buttonPro{
+    display: inline-flex;
+    width: 100%
+}
+
+.buttonProW{
+    width: 50%;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(217,217,217)
+}

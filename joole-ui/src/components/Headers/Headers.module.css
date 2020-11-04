@@ -1,0 +1,30 @@
+.logo {
+    width: 10rem;
+    float: left;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.headers {
+    height: 5rem;
+    background: linear-gradient(-90deg, rgba(123,182,238,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 0.75rem 0.75rem;
+    
+}
+
+.search {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    justify-content: center;
+    display: flex;
+}
+
+.p{
+    font-weight: bold;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 2rem;
+}

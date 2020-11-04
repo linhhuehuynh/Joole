@@ -1,0 +1,38 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+import {BrowserRouter} from 'react-router-dom';
+import {Provider} from 'react-redux';
+import {createStore, applyMiddleware, compose, combineReducers} from 'redux';
+import thunk from 'redux-thunk';
+
+import authReducer from './store/reducers/authReducer';
+import searchReducer from './store/reducers/searchReducer';
+import modelReducer from './store/reducers/modelReducer';
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ &&
+  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({ trace: true, traceLimit: 25 }) || compose;
+
+const rootReducer = combineReducers({
+  auth: authReducer,
+  search: searchReducer,
+  model: modelReducer
+});
+
+const store = createStore(rootReducer, composeEnhancers(
+  applyMiddleware(thunk)
+))
+
+const app = (
+  <Provider store={store}>
+    <BrowserRouter>
+      <App/>
+    </BrowserRouter>
+  </Provider>
+)
+
+ReactDOM.render(app,document.getElementById('root'));
+reportWebVitals();

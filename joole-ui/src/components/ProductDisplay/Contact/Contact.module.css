@@ -1,0 +1,45 @@
+
+
+.tableSpilt{
+    display: inline-flex;
+    width:100%
+}
+
+.contact{
+    margin: 0.5rem 2rem 0 2rem
+}
+
+td, th {
+    border: 1px solid rgb(217,217,217);
+    border-left: none;
+    border-right: none;
+    padding: 0.5rem
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    border-left: none;
+    border-right: none;
+}
+
+.title{
+    border: 2px solid rgb(200,200,200);
+    border-left: none;
+    border-right: none;
+}
+
+.sub{
+    background-color: rgb(242,242,242);
+    border: none;
+    width: 40%
+}
+
+.resp{
+    margin-right: 2rem;
+    width: 100%
+}
+
+.brand{
+    width: 100%;
+}

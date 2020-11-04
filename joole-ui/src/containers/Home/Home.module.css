@@ -1,0 +1,19 @@
+.home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(123,182,238,1) 0%, rgba(255,255,255,1) 100%);
+    outline: 2px rgb(74, 123, 167) solid;
+    outline-offset: -10px;
+    color: rgb(118,112,113);
+}
+
+.h3{
+    margin-bottom: 2.5rem;
+}
+
+.logo{
+    width: 25%
+}

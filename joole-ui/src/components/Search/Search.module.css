@@ -1,0 +1,20 @@
+.search{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.select{
+    height: 1.75rem;
+    border-radius: 4px;
+    text-indent: 0.25rem;
+    width: 8rem;
+    background-color: rgb(217,217,217);
+    border-color: rgb(127,127,127);
+}
+
+.input{
+    width: 100%;
+    border: 1px solid rgb(127,127,127);
+    border-radius: 3px;
+}

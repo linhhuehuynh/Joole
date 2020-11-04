@@ -1,0 +1,21 @@
+.productDetails{
+    margin: 0.5rem 2rem 0 2rem
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    border-left: none;
+    border-right: none;
+    width: 100%
+}
+
+.title{
+    border: 2px solid rgb(200,200,200);
+    border-left: none;
+    border-right: none;
+}
+
+.detailColor{
+    background-color: rgb(242,242,242);
+}
