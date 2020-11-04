@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="joole:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="79babac7-8a10-457a-ab94-fd1bf9e9e846" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d3eb6586-a894-4135-8119-e92aa3791cad.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d3eb6586-a894-4135-8119-e92aa3791cad/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/config/JpaConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/LineSpecsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/ManufacturerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/ModelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/ModelDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/ModelTypeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/ProductLineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/SpecsPropertyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/CategoryRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/LineSpecsRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/ManufacturerRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/ModelDetailsRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/ModelRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/ModelTypeRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/ProductLineRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/SpecsPropertyRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/dao/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/LineSpecs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/Manufacturer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/Model.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/ModelDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/ModelSpecs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/ModelType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/ProductDocs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/ProductLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/ProductSeries.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/SpecsProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/security/PasswordEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/security/filter/JwtRequestFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/security/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/LineSpecService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/ManufacturerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/ModelDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/ModelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/ModelTypeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/ProductLineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/SpecsPropertyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joole/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/joole-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/config/JpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/LineSpecsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/ManufacturerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/ModelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/ModelDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/ModelTypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/ProductLineController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/SpecsPropertyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/CategoryRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/LineSpecsRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/ManufacturerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/ModelDetailsRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/ModelRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/ModelTypeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/ProductLineRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/SpecsPropertyRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/dao/UserRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/LineSpecs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/Manufacturer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/ModelDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/ModelSpecs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/ModelType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/ProductDocs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/ProductLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/ProductSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/SpecsProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/security/PasswordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/security/WebSecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/security/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/security/filter/JwtRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/security/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/LineSpecService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/ManufacturerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/ModelDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/ModelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/ModelTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/ProductLineService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/SpecsPropertyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joole/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/classes/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/joole-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/lib/spring-aop-4.3.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/lib/spring-beans-4.3.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/lib/spring-context-4.3.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/lib/spring-core-4.3.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/lib/spring-expression-4.3.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/lib/spring-web-4.3.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/lib/spring-webmvc-4.3.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/hello/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/config/JpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/LineSpecsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/ManufacturerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/ModelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/ModelDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/ModelTypeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/ProductLineController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/SpecsPropertyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/CategoryRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/LineSpecsRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/ManufacturerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/ModelDetailsRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/ModelRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/ModelTypeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/ProductLineRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/SpecsPropertyRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/dao/UserRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/LineSpecs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/Manufacturer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/ModelDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/ModelSpecs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/ModelType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/ProductDocs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/ProductLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/ProductSeries.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/SpecsProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/security/PasswordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/security/WebSecurityConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/security/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/security/filter/JwtRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/security/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/CategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/LineSpecService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/ManufacturerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/ModelDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/ModelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/ModelTypeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/ProductLineService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/SpecsPropertyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/com/joole/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/classes/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/joole-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/aspectjrt-1.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/byte-buddy-1.10.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/dom4j-2.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/hibernate-core-5.4.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/hibernate-entitymanager-5.4.22.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jandex-2.1.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/jjwt-0.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.3.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-data-jpa-2.3.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/joole-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="FxmlFile" />
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\linhhuehuynh\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jHUIUEwkXvaNpkMdNUAi5By1zF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql.8" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="d3eb6586-a894-4135-8119-e92aa3791cad" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/joole" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.joole.dao" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="entity" />
+      <recent name="" />
+      <recent name="controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\ITLize\joole\src\main\webapp\WEB-INF" />
+      <recent name="D:\Documents\ITLize\joole\src\main\webapp" />
+      <recent name="D:\Documents\ITLize\joole\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\Documents\ITLize\joole\src\main\webapp\JSP" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.59">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="joole" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.59" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.59" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="joole:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_59_joole_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60043" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="joole:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.59" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="joole:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_joole" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60043" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="joole:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.59" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="79babac7-8a10-457a-ab94-fd1bf9e9e846" name="Default Changelist" comment="" />
+      <created>1603460433482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603460433482</updated>
+      <workItem from="1603460434914" duration="17544000" />
+      <workItem from="1603643633013" duration="16375000" />
+      <workItem from="1603721280575" duration="3713000" />
+      <workItem from="1603764696683" duration="2450000" />
+      <workItem from="1603804476411" duration="13080000" />
+      <workItem from="1603895832957" duration="11256000" />
+      <workItem from="1603979029265" duration="4603000" />
+      <workItem from="1604059521839" duration="14491000" />
+      <workItem from="1604092879738" duration="30651000" />
+      <workItem from="1604151787142" duration="3013000" />
+      <workItem from="1604168085276" duration="10610000" />
+      <workItem from="1604234842794" duration="25957000" />
+      <workItem from="1604324427947" duration="9485000" />
+      <workItem from="1604374503090" duration="2167000" />
+      <workItem from="1604409531699" duration="4976000" />
+      <workItem from="1604445499732" duration="148000" />
+      <workItem from="1604507003697" duration="597000" />
+      <workItem from="1604511855589" duration="39000" />
+      <workItem from="1604511934899" duration="648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="668" y="303" width="434" height="217" key="#Assign_Data_Sources" timestamp="1603639537776">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="668" y="303" width="434" height="217" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1603639537776" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1603468072275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1603468072275" />
+    <state x="547" y="314" key="#Tomcat_Server" timestamp="1603465899432">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="547" y="314" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1603465899432" />
+    <state x="223" y="38" width="1089" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603722503850">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="38" width="1089" height="786" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603722503850" />
+    <state x="526" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603475195386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1603475195386" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1604356795046">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604356795046" />
+    <state x="498" y="237" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1603477212338">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="237" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1603477212338" />
+    <state x="397" y="101" width="1024" height="622" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603473711989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="397" y="101" width="1024" height="622" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1603473711989" />
+    <state x="498" y="75" width="968" height="722" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1603642120194">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="75" width="968" height="722" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1603642120194" />
+    <state x="439" y="98" width="657" height="686" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1603477299047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="98" width="657" height="686" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.0.1536.824@0.0.1536.824" timestamp="1603477299047" />
+    <state x="439" y="210" key="#com.intellij.jpa.generation.ui.ImportMappingsDialog" timestamp="1603474705060">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="439" y="210" key="#com.intellij.jpa.generation.ui.ImportMappingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603474705060" />
+    <state x="590" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1603648470976">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="590" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1603648470976" />
+    <state x="551" y="281" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603652949522">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="281" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1603652949522" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604356668162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604356668162" />
+    <state x="548" y="177" key="FileChooserDialogImpl" timestamp="1604512585169">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="177" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604512585169" />
+    <state width="1024" height="198" key="GridCell.Tab.0.bottom" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.0.center" timestamp="1604512586902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604512586902" />
+    <state width="1024" height="198" key="GridCell.Tab.0.left" timestamp="1604512586902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604512586902" />
+    <state width="1024" height="198" key="GridCell.Tab.0.right" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.1.bottom" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.1.center" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.1.left" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.1.right" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.2.bottom" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.2.center" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.2.left" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state width="1024" height="198" key="GridCell.Tab.2.right" timestamp="1604512586903">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="198" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1604512586903" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1603474139446">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1603474139446" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1603643523144">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603643523144" />
+    <state x="705" y="141" key="refactoring.ChangeSignatureDialog" timestamp="1603764933614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="705" y="141" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1603764933614" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604445642733">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604445642733" />
+    <state x="449" y="95" key="spring file set editor" timestamp="1603464047477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1603464047477" />
+  </component>
+</project>
